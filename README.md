@@ -1,5 +1,7 @@
 # tavern-card-lint
 
+[![CI](https://github.com/wdfdsyhb/tavern-card-lint/actions/workflows/tests.yml/badge.svg)](https://github.com/wdfdsyhb/tavern-card-lint/actions/workflows/tests.yml)
+
 **Validate SillyTavern / TavernAI character cards before your roleplay breaks.**
 
 角色卡发出去之前体检一遍：起不来场、世界书条目永不触发、字段类型写错——这些都是收到卡的人才发现的坑。
