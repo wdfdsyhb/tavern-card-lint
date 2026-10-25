@@ -1,10 +1,12 @@
-# tavern-card-lint
+# tavern-card-lint · 角色卡体检仪
 
 [![CI](https://github.com/wdfdsyhb/tavern-card-lint/actions/workflows/tests.yml/badge.svg)](https://github.com/wdfdsyhb/tavern-card-lint/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 
-**Validate SillyTavern / TavernAI character cards before your roleplay breaks.**
-
-角色卡发出去之前体检一遍：起不来场、世界书条目永不触发、字段类型写错——这些都是收到卡的人才发现的坑。
+> 输入角色卡 PNG，输出 error/warning 清单：起不来场、永不触发的世界书条目，发卡前当场现形。
+>
+> English: Feed it a character card PNG, get an error/warning list — broken openings and dead lorebook entries caught before you ship.
 
 ## What it checks
 
@@ -47,3 +49,9 @@ PNG 是带 CRC 的 chunk 结构，`tEXt` chunk 存 `keyword\0text` 对。SillyTa
 ## License
 
 MIT
+
+---
+
+## English
+
+Full English documentation: [README_EN.md](README_EN.md)
